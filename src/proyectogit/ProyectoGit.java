@@ -7,16 +7,29 @@
 package proyectogit;
 
 /**
- *
+ *  this class sucks!
  * @author Vespertino
  */
-public class ProyectoGit {
 
-    /**
-     * @param args the command line arguments
-     */
+public class ProyectoGit {
+    private int numero;
+    private String nombre;
+    
     public static void main(String[] args) {
         // TODO code application logic here
+       
     }
     
+    public void setNumero(int numero)
+    {   this.numero=numero;
+    }
+    
+    public void setNombre(String nombre)
+    {   this.nombre=nombre;
+    }
+    
+    public int getNumero()
+    {   return this.numero;
+    
+    }
 }
