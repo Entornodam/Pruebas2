@@ -11,6 +11,7 @@ package proyectogit;
  * @author Vespertino
  */
 
+//esta linea es importante
 public class ProyectoGit {
     private int numero;
     private String nombre;
